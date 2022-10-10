@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>BlackJack</h1>
+    <p id="message-el">Want to play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button  onclick="startGame()">START BUTTON</button><br>
+    <button onclick="newCard()">NEW CARD</button>
+    <p id="player-el"></p>
+
+    <div id="rules">
+    <pre>
+    1. If value is less than 21,
+        you can draw another card.
+     2. If value is more than 21,
+        you loose.
+    3. If value is 21 then, you win.
+    4. Value of A is 11 and Value of
+    J,k,l is 10
+    </pre>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
